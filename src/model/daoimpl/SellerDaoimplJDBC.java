@@ -36,4 +36,10 @@ public class SellerDaoimplJDBC implements SellerDao {
 		// TODO Auto-generated method stub
 		return null;
 	}
+
+	@Override
+	public Seller findByName(String string) {
+		// TODO Auto-generated method stub
+		return null;
+	}
 }
