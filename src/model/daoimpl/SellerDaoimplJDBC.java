@@ -3,6 +3,7 @@ package model.daoimpl;
 import java.util.List;
 
 import model.dao.SellerDao;
+import model.entities.Department;
 import model.entities.Seller;
 
 public class SellerDaoimplJDBC implements SellerDao {
@@ -38,8 +39,22 @@ public class SellerDaoimplJDBC implements SellerDao {
 	}
 
 	@Override
-	public Seller findByName(String string) {
+	public List<Seller> findByDepartment(Department department) {
 		// TODO Auto-generated method stub
 		return null;
 	}
+
+	@Override
+	public List<Seller> findByDepartment(Department department, String name) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public List<Seller> findByDeartment(int department, String name) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+
 }
