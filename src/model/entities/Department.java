@@ -6,7 +6,7 @@ import java.util.Objects;
 public class Department implements Serializable {
 
 	private static final long serialVersionUID = 1L;
-	private Integer id;
+	private static Integer id;
 	private String name;
 	
 	public Department() {		
@@ -17,7 +17,7 @@ public class Department implements Serializable {
 		this.name = name;
 	}
 
-	public Integer getId() {
+	public static Integer getId() {
 		return id;
 	}
 
